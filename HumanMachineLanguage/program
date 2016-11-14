@@ -1,0 +1,14 @@
+move lh to pos 0
+move rh to pos 1
+jump to line 12 if rhcard lt lhcard
+shift rh to the r
+jump to line 7 if rhpos gt 7
+jump to line 3
+shift lh to the r
+move rh to pos lhpos
+shift rh to the r
+jump to line 14 if lhpos gt 7
+jump to line 3
+swap
+jump to line 4
+stop

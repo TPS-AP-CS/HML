@@ -1,0 +1,21 @@
+shift lh to the r
+First line in the file
+shift rh to the l
+shift l to the rh
+shift r to the lh
+Second line in the file
+move rh to pos 3
+move lh to pos rhpos
+move rh to pos lhpos
+move lh to pos -1
+move rh to pos 7
+stop
+swap
+halt
+jump to line x if lhcard eq 9
+jump to line 4 if rhcard eq 10
+jump to line 3 if lhpos lt 2
+jump to line 5 if rhpos gt 9
+jump to b 11
+jump to line 3 if rhcard eq lhcard
+
